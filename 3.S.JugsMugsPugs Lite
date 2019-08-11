@@ -1,0 +1,17 @@
+c = int(input())
+b=c
+a =int(c)
+if((a%3 ==0)|(a %5==0)|(a%7==0)):
+  b=""
+if(a%3==0):
+  b ="Jugs"
+if(a%5==0):
+  b=b+"Mugs"
+if(a%7==0):
+  b=b+"Pugs"
+
+print(b)
+
+ 
+ 
+ 
