@@ -1,0 +1,20 @@
+a=input()
+b=a
+c=int(a)
+if((c%3==0)|(c%5==0)|(c%7==0)|('3' in a)|('5' in a)|('7' in a)):
+  b=""
+  
+  
+  if((c%3==0)|('3' in a)):
+    b="jugs"
+  
+  
+  
+  if((c%5==0)|('5' in a)):
+    b=b+"Mugs"
+  
+  if((c%7==0)|('7' in a)):
+    b=b+"Pugs"
+  
+print(b)
+  
