@@ -1,0 +1,7 @@
+# Read a string:
+# s = input()
+# Print a string:
+# print(s)
+s = input()
+t = (s[s.find('h'):s.rfind('h')])
+print(s[:s.find('h')+1] + t[::-1]+ s[s.rfind('h')+1:])
