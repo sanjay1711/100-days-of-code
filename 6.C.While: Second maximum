@@ -1,0 +1,13 @@
+top = 1
+second = 1
+a = 1
+second = 0
+while a != 0:
+  a = int(input())
+  if second<a<top:
+    second = a
+  elif a>top:
+    second = top
+    top = a
+print(second)
+  
