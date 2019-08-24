@@ -1,0 +1,13 @@
+# Read an integer:
+# a = int(input())
+# Print a value:
+num =0
+fact=1
+res=0
+
+
+for i in range (1,int(input())+1):
+  fact *= i
+  res += fact
+print(res)
+
